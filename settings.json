@@ -6,7 +6,7 @@
     "PX4": {
       "VehicleType": "PX4Multirotor",
       "UseSerial": false,
-      "UseTcp": true,
+      "UseTcp": false,
       "TcpPort": 4560,
       "ControlIp": "127.0.0.1",
       "ControlPort": 14540,
