@@ -84,7 +84,7 @@ cd $HOME/Downloads
 wget https://github.com/mavlink/qgroundcontrol/releases/download/v5.0.8/QGroundControl.AppImage -O QGroundControl.AppImage
 chmod +x QGroundControl.AppImage
 # optional: move to /opt or ~/bin
-mv QGroundControl.AppImage ~/bin/QGroundControl.AppImage
+mv QGroundControl.AppImage ~/QGroundControl.AppImage
 ```
 install any recommended libs (some distributions need these):
 ```bash
@@ -92,7 +92,7 @@ sudo apt install -y gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl 
 ```
 Then run:
 ```bash
-~/bin/QGroundControl.AppImage
+~/QGroundControl.AppImage
 ```
 Docs: QGroundControl install instructions. (https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html?utm_source=chatgpt.com)
 
@@ -164,7 +164,7 @@ If you have no GPU or Blocks keeps crashing, try headless mode:
 # C — QGroundControl
 Start QGC AppImage:
 ```bash
-~/bin/QGroundControl.AppImage
+~/QGroundControl.AppImage
 ```
 If QGC doesn’t auto-detect a vehicle, add a UDP link:
 * Host: 127.0.0.1
